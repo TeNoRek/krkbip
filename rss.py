@@ -49,12 +49,12 @@ while (1) :
 		header = ('<tr><td><b>' + now_str + ' (' + str(added) + ')</b></td><td>')
 		text_to_add += '</td></tr>'
 		if added > 0:
-			with open('../../web/index.html', 'a') as f:
+			with open('index.html', 'a') as f:
 				f.write(header)
 				f.write(text_to_add)
 		old_entries = entries
 	
-	with open('../../web/activity.html', 'w') as f:
+	with open('activity.html', 'w') as f:
 		f.write('<p><center><b>Last run on: ' + now_str + ' Up: ' + str(now - start_time) + '</b><br>Search criteria: ')
 		for word in a:
 			f.write(word + ' ')
