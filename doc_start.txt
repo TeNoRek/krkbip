@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+
+<iframe src="activity.html" width=100% height=10%></iframe>
+<table style="width:100%" border="1">
+  <tr>
+    <th width=15%>Time</th>
+    <th>Note</th>
+  </tr>
